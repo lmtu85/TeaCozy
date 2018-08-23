@@ -2,11 +2,12 @@ body {
   font-family: "helvetica", sans-serif;
   background-color: black;
   color: seashell;
+  font-size: 22px;
+  opacity: 0.9;
 }
 
 a {
   color: seashell;
-  font-weight: bold;
 }
 
 /*Header*/
@@ -36,5 +37,51 @@ header {
 nav span {
   display: inline-block;
   padding: 20px 5px;
-  margin-right: 10px;
+  margin-right: 15px;
+}
+
+/*Our Mission*/
+.banner {
+  width: 1200px;
+  margin: auto;
+}
+
+.banner-content {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.text-content {
+  background-color: black;
+  width: 100%;
+}
+
+/*Tea of the Month*/
+.teaofthemonth {
+  display: block;
+  text-align: center;
+  width: 1200px;
+}
+
+.tea-content {
+  width: auto;
+}
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  justify-content: center;
+}
+
+.teas img {
+  width: 300px;
+  height: 200px;
+  padding: 0px 12px;
 }
