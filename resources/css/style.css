@@ -85,3 +85,33 @@ nav span {
   height: 200px;
   padding: 0px 12px;
 }
+
+/*Locations*/
+.store-locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.location-header {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.locations-maine {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 20px;
+  opacity: 1.0;
+  background-color: black;
+}
