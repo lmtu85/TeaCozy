@@ -4,6 +4,7 @@ body {
   color: seashell;
   font-size: 22px;
   opacity: 0.9;
+  margin: 0 auto;
 }
 
 a {
@@ -21,6 +22,7 @@ header {
   border-bottom: 1px solid seashell;
   height: 69px;
   width: 100%;
+  margin: 0;
 }
 
 .logo {
@@ -36,7 +38,7 @@ header {
 
 nav span {
   display: inline-block;
-  padding: 20px 5px;
+  padding: 0px 5px;
   margin-right: 15px;
 }
 
@@ -89,14 +91,14 @@ nav span {
 /*Locations*/
 .store-locations {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
-  height: 500px;
-  max-width: 1200px;
-  margin: auto;
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  height: 565px;
 }
 
 .location-header {
   text-align: center;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .locations-maine {
@@ -114,4 +116,14 @@ nav span {
   margin: 5px 20px;
   opacity: 1.0;
   background-color: black;
+}
+
+/*Footer*/
+footer {
+  text-align: center;
+}
+
+#copyright {
+  text-align: left;
+  margin-left: 20px;
 }
